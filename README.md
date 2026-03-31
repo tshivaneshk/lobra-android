@@ -50,7 +50,7 @@ https://youtu.be/xe9Rmslnn4U
 
 ### Location Suggestions
 
-![Location](screenshots/locationsuggestions.png)
+![Location](screenshots/locationsugesstions.png)
 
 ### Notification
 
