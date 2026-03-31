@@ -1,0 +1,57 @@
+package com.example.lobra.theme
+
+import android.app.Activity
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.darkColorScheme
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.SideEffect
+import androidx.compose.ui.graphics.toArgb
+import androidx.compose.ui.platform.LocalView
+import androidx.core.view.WindowCompat
+
+import androidx.compose.material3.lightColorScheme
+import androidx.compose.foundation.isSystemInDarkTheme
+
+private val DarkColorScheme = darkColorScheme(
+    primary = PrimaryEmerald,
+    onPrimary = OnPrimary,
+    background = BackgroundDark,
+    onBackground = OnBackground,
+    surface = SurfaceDark,
+    onSurface = OnSurface,
+    surfaceVariant = SurfaceVariantDark,
+    onSurfaceVariant = OnSurfaceVariant,
+    error = ErrorColor
+)
+
+private val LightColorScheme = lightColorScheme(
+    primary = PrimaryEmerald,
+    onPrimary = OnPrimary,
+    background = BackgroundLight,
+    onBackground = OnBackgroundLight,
+    surface = SurfaceLight,
+    onSurface = OnSurfaceLight,
+    surfaceVariant = SurfaceVariantLight,
+    onSurfaceVariant = OnSurfaceVariantLight,
+    error = ErrorColor
+)
+
+@Composable
+fun LobraTheme(
+    darkTheme: Boolean = isSystemInDarkTheme(),
+    content: @Composable () -> Unit
+) {
+    val colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme
+    val view = LocalView.current
+    if (!view.isInEditMode) {
+        SideEffect {
+            val window = (view.context as Activity).window
+            WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = !darkTheme
+        }
+    }
+
+    MaterialTheme(
+        colorScheme = colorScheme,
+        content = content
+    )
+}
