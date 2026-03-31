@@ -10,14 +10,6 @@
   <b>A dark-mode-first, location-aware reminder application built with modern Android architecture.</b>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Android-green" />
-  <img src="https://img.shields.io/badge/Language-Kotlin-blue" />
-  <img src="https://img.shields.io/badge/Architecture-MVVM-orange" />
-  <img src="https://img.shields.io/badge/UI-Jetpack%20Compose-purple" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow" />
-</p>
-
 ---
 
 ## Overview
@@ -43,7 +35,7 @@ The goal was to build a lightweight, offline-first system that remains reliable 
 
 A complete walkthrough of the application, including permission handling, reminder creation, and notification triggering:
 
-https://youtu.be/xe9Rmslnn4U
+[Watch Demo Video](https://youtu.be/kEPup7qUp_g)
 
 ---
 
@@ -51,7 +43,7 @@ https://youtu.be/xe9Rmslnn4U
 
 You can download and test the latest version of Lobra:
 
-https://github.com/tshivaneshk/lobra-android/releases
+[Download APK](https://github.com/tshivaneshk/lobra-android/releases)
 
 ---
 
@@ -195,7 +187,7 @@ app/src/main/java/com/example/lobra
 
 ## Design Notes
 
-The application follows a consistent dark color palette focused on readability and minimal visual clarity. The interface is designed to prioritize quick interaction and clear presentation of reminders.
+The application follows a consistent dark color palette focused on readability and minimal visual noise. The interface is designed to prioritize quick interaction and clear presentation of reminders.
 
 ---
 
