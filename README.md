@@ -95,7 +95,7 @@ https://youtu.be/xe9Rmslnn4U
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/lobra.git
+git clone https://github.com/tshivaneshk/lobra.git
 ```
 
 1. Open the project in Android Studio
