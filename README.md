@@ -36,35 +36,37 @@ https://youtu.be/xe9Rmslnn4U
 
 ## Screenshots
 
-> Add the following images inside a `screenshots/` folder in your repository.
-
 ### Dashboard
 
 ![Dashboard](screenshots/dashboard.png)
 
 ### Add Reminder
 
-![Add Reminder](screenshots/add.png)
+![Add Reminder](screenshots/addreminder.png)
 
 ### Reminder Details
 
-![Details](screenshots/details.png)
+![Details](screenshots/reminderscreen.png)
 
 ### Location Suggestions
 
-![Location](screenshots/location.png)
+![Location](screenshots/locationsuggestions.png)
 
 ### Notification
 
-![Notification](screenshots/notification.png)
+![Notification](screenshots/notifications.png)
 
 ### Settings
 
 ![Settings](screenshots/settings.png)
 
+### Widget
+
+![Widget](screenshots/widget.png)
+
 ### Recycle Bin
 
-![Recycle Bin](screenshots/recycle.png)
+![Recycle Bin](screenshots/recyclebin.png)
 
 ---
 
