@@ -22,6 +22,14 @@ https://youtu.be/xe9Rmslnn4U
 
 ---
 
+## Download APK
+
+You can download and install the latest version of Lobra:
+
+https://github.com/tshivaneshk/lobra-android/releases
+
+---
+
 ## Features
 
 * Dark-mode-first interface designed for clarity and reduced eye strain
